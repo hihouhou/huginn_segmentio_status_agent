@@ -7,7 +7,7 @@ module Agents
 
     description do
       <<-MD
-      The PagerDuty agent fetches Pagerduty status.
+      The Segmentio agent fetches segment.io status.
       I added this agent because with website agent, when indicator is empty for "all ok status", no event was created.
 
       `expected_receive_period_in_days` is used to determine if the Agent is working. Set it to the maximum number of days
